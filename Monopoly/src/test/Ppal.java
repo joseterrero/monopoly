@@ -24,6 +24,7 @@ public class Ppal {
 		for (int i = 0; i < listaJugadores.length; i++) {
 			System.out.println("Introduzca el nombre: ");
 			nombre = Leer.dato();
+			
 			listaJugadores[i] = new Jugador(nombre, dinero, posicion);
 		}
 
