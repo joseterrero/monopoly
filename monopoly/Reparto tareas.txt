@@ -1,6 +1,0 @@
-Primer reparto:
-
-Plalo- clase carcel y parking.
-Carlos- Tablero, cartas banco y sorpresa (solo escritas sin codigo).
-Jose- Array e introduccion de jugadores.
-Chus- clase dado y base de datos.
