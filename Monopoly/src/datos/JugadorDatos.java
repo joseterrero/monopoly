@@ -35,5 +35,25 @@ public class JugadorDatos {
 		
 		return sorpresa;
 	}
-
+	
+	public String[] arrayInstrucciones() {
+		String [] instrucciones= {
+				"  ___                 _                                  _                              \r\n" + 
+				" |_ _|  _ __    ___  | |_   _ __   _   _    ___    ___  (_)   ___    _ __     ___   ___ \r\n" + 
+				"  | |  | '_ \\  / __| | __| | '__| | | | |  / __|  / __| | |  / _ \\  | '_ \\   / _ \\ / __|\r\n" + 
+				"  | |  | | | | \\__ \\ | |_  | |    | |_| | | (__  | (__  | | | (_) | | | | | |  __/ \\__ \\\r\n" + 
+				" |___| |_| |_| |___/  \\__| |_|     \\__,_|  \\___|  \\___| |_|  \\___/  |_| |_|  \\___| |___/", 
+				"El primer objetivo del juego es ser el último que quede en la partida y que no esté en bancarrota.",
+				"Casillas de suerte o banca: cuando caigas en una de las casillas de carta ya sea suerte o banca, deberas de seguir las instruccines de la carta"
+				+ ""
+		
+		
+		
+		
+		
+		};
+		
+		return instrucciones;
+	
+	}
 }

@@ -11,6 +11,7 @@ public class Ppal {
 		String nombre;
 		int tam, posicion = 1;
 		double dinero = 10000;
+		String [] instrucciones;
 
 		Jugador[] listaJugadores;
 
@@ -28,6 +29,5 @@ public class Ppal {
 			listaJugadores[i] = new Jugador(nombre, dinero, posicion);
 		}
 
-	}
-
+}
 }
