@@ -1,6 +1,13 @@
-Primer reparto:
+Primer reparto:		12/12
 
-Plalo- clase carcel y parking.
-Carlos- Tablero, cartas banco y sorpresa (solo escritas sin codigo).
-Jose- Array e introduccion de jugadores.
-Chus- clase dado y base de datos.
+Plalo- clase carcel y parking.							Hecho
+Carlos- Tablero, cartas banco y sorpresa (solo escritas sin codigo).		Hecho (falta tablero)
+Jose- Array e introduccion de jugadores.					Hecho
+Chus- clase dado y base de datos.						Hecho
+
+Segundo reparto:	13/12
+
+Pablo - Array de instrucciones
+Carlos - tablero
+Jose - Metodos carta banco
+Jesus - Metodos carta suerte

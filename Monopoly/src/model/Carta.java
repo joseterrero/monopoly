@@ -2,38 +2,40 @@ package model;
 
 public class Carta {
 	
-	private String suerte;
-	private String carcel;
+	private int clase;
+	private String titulo;
 	
 	public Carta() {
 		
 	}
 
-	public Carta(String suerte, String carcel) {
+	public Carta(int clase, String titulo) {
 		super();
-		this.suerte = suerte;
-		this.carcel = carcel;
+		this.clase = clase;
+		this.titulo = titulo;
 	}
 
-	public String getSuerte() {
-		return suerte;
+	public int getClase() {
+		return clase;
 	}
 
-	public void setSuerte(String suerte) {
-		this.suerte = suerte;
+	public void setClase(int clase) {
+		this.clase = clase;
 	}
 
-	public String getCarcel() {
-		return carcel;
+	public String getTitulo() {
+		return titulo;
 	}
 
-	public void setCarcel(String carcel) {
-		this.carcel = carcel;
+	public void setTitulo(String titulo) {
+		this.titulo = titulo;
 	}
 
 	@Override
 	public String toString() {
-		return "Carta [suerte=" + suerte + ", carcel=" + carcel + "]";
+		return "Carta [clase=" + clase + ", titulo=" + titulo + "]";
 	}
 	
+	
+
 }
