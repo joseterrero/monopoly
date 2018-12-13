@@ -24,7 +24,7 @@ public class JugadorDatos {
 	public String[] arrayCartasSorpresa() {
 		String [] sorpresa= {"Error del banco a tu favor, cobra 200 $.",
 				"Tu abuelo murió, heredas 300 $.",
-				"Te presentas a gobernador, cobras 50 $ a cada jugador.",
+				"Te presentas a gobernador, cobras 50 $.",
 				"Avanza hasta la salida, cobras 200 $.",
 				"Tus construcciones están mejorando, cobra 100 $ del banco.",
 				"Error de cálculos, el banco te devuelve 50 $.",

@@ -9,8 +9,8 @@ public class Ppal {
 		// TODO Auto-generated method stub
 
 		String nombre;
-		int tam, posicion = 0;
-		double dinero = 40000;
+		int tam, posicion = 1;
+		double dinero = 10000;
 
 		Jugador[] listaJugadores;
 

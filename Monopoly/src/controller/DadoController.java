@@ -9,10 +9,10 @@ public class DadoController {
 	}
 	
 	public int tirarDado() {
-		int num=0;
+		int num=0, desde=1, hasta=6;
 		Random r= new Random (System.nanoTime());
 		
-		num= r.nextInt(6-1+1)+1;
+		num= r.nextInt(hasta-desde+desde)+desde;
 		
 		return num;
 	}
