@@ -3,7 +3,7 @@ package vista;
 import java.util.Arrays;
 
 public class Tablero {
-	
+	//Hacer con array bidimensional, un índice para cada caracter
 	private String[] tablero= {"@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@" , 
 			"@                  @                  @                  @                  @                  @                  @                  @" , 
 			"@                  @                  @                  @                  @                  @                  @                  @" , 
