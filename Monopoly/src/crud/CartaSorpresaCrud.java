@@ -3,6 +3,7 @@ package crud;
 import java.util.Random;
 
 import model.Jugador;
+import model.Parking;
 
 public class CartaSorpresaCrud {
 
@@ -39,6 +40,7 @@ public class CartaSorpresaCrud {
 	
 	public void carta5(Jugador j, Parking p) {
 		j.setDinero(j.getDinero()-500);
+		p.setBote(p.getBote()+500);
 	}
 	
 	public void carta6(Jugador j) {
@@ -47,13 +49,16 @@ public class CartaSorpresaCrud {
 	
 	public void carta7(Jugador j, Parking p) {
 		j.setDinero(j.getDinero()-250);
+		p.setBote(p.getBote()+250);
 	}
 	
 	public void carta8(Jugador j, Parking p) {
 		j.setDinero(j.getDinero()-450);
+		p.setBote(p.getBote()+450);
 	}
 	
 	public void carta9(Jugador j, Parking p) {
 		j.setDinero(j.getDinero()-1000);
+		p.setBote(p.getBote()+1000);
 	}
 }
