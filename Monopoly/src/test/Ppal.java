@@ -17,17 +17,31 @@ public class Ppal {
 
 		System.out.println("Bienvenidos al Monopoly.");
 
-		System.out.println("¿Cuántos jugadores van a jugar?");
+		do {
+		System.out.println("¿Cuántos jugadores van a jugar? 1-4");
 		tam = Leer.datoInt();
-
-		listaJugadores = new Jugador[tam];
-
-		for (int i = 0; i < listaJugadores.length; i++) {
-			System.out.println("Introduzca el nombre: ");
-			nombre = Leer.dato();
+		
+		if (tam>1 && tam<=4) {
 			
-			listaJugadores[i] = new Jugador(nombre, dinero, posicion);
+			listaJugadores = new Jugador[tam];
+
+			for (int i = 0; i < listaJugadores.length; i++) {
+				System.out.println("Introduzca el nombre: ");
+				nombre = Leer.dato();
+				
+				listaJugadores[i] = new Jugador(nombre, dinero, posicion);
+			}
+			
+		} else {
+			System.out.println("Error. El número de jugadores indicados no es válido. Vuelva a intentarlo.");
 		}
 
+<<<<<<< HEAD
 }
+=======
+		}while(tam!=1 && tam!=2 && tam!=3 && tam!=4);
+
+	}
+
+>>>>>>> bbfa093e9bb724c8b15776405b2fde9b5db9ba9f
 }
