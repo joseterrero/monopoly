@@ -11,6 +11,7 @@ public class Ppal {
 		String nombre;
 		int tam, posicion = 1;
 		double dinero = 10000;
+		String [] instrucciones;
 
 		Jugador[] listaJugadores;
 
@@ -35,8 +36,8 @@ public class Ppal {
 			System.out.println("Error. El número de jugadores indicados no es válido. Vuelva a intentarlo.");
 		}
 
+
 		}while(tam!=1 && tam!=2 && tam!=3 && tam!=4);
 
 	}
-
 }
