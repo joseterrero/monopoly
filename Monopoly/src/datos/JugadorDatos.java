@@ -43,15 +43,26 @@ public class JugadorDatos {
 				"  | |  | '_ \\  / __| | __| | '__| | | | |  / __|  / __| | |  / _ \\  | '_ \\   / _ \\ / __|\r\n" + 
 				"  | |  | | | | \\__ \\ | |_  | |    | |_| | | (__  | (__  | | | (_) | | | | | |  __/ \\__ \\\r\n" + 
 				" |___| |_| |_| |___/  \\__| |_|     \\__,_|  \\___|  \\___| |_|  \\___/  |_| |_|  \\___| |___/", 
-				"El primer objetivo del juego es ser el último que quede en la partida y que no esté en bancarrota.",
-				"Casillas de suerte o banca: cuando caigas en una de las casillas de carta ya sea suerte o banca, deberas de seguir las instruccines de la carta"
-				+ ""
+						
+						"El principal objetivo de este juego es ser el último que"
+						+ "quede en la partida, sin estar en bancarrota.",
+						"Cada vez que pases por la casilla de salida la banca"
+						+ "te dará 200€",
+						"Cada vez que alguien caiga en una casilla que tu tengas "
+						+ "comprada tendrá que pagar el importe que posea esa calle"
+						+ "y este se sumará al dinero del poseedor",
+						"Si caes en una de las casillas de estacion y eres el primer"
+						+ "jugador que cae en ella tendrás la oportunidad de comprarla"
+						+ "Si caes en una de las casilla de suerte o banca deberás de "
+						+ "obedecer lo que la carta diga",
+						"Si caes en la casilla del parking te quedarás ahi hasta tu proximo"
+						+ "turno y se sumará a tu dinero lo que haya en el bote de la banca",
+						"Hay dos maneras de ir a la carcel, la primera es caer en la casilla"
+						+ "de cárcel o que te toque en una carta la orden de ir a la carcel",
+						"Para salir de la cárcel puedes pagar un impuesto de 50€",
+						"El último jugador que quede en la partida gana el juego."};
 		
 		
-		
-		
-		
-		};
 		
 		return instrucciones;
 	

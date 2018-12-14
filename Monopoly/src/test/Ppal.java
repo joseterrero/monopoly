@@ -36,12 +36,8 @@ public class Ppal {
 			System.out.println("Error. El número de jugadores indicados no es válido. Vuelva a intentarlo.");
 		}
 
-<<<<<<< HEAD
-}
-=======
+
 		}while(tam!=1 && tam!=2 && tam!=3 && tam!=4);
 
 	}
-
->>>>>>> bbfa093e9bb724c8b15776405b2fde9b5db9ba9f
 }
