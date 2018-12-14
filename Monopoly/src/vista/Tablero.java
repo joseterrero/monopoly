@@ -99,9 +99,6 @@ public class Tablero {
 		return tablero;
 	}
 
-	public void setTablero(String[] tablero) {
-		this.tablero = tablero;
-	}
 
 	@Override
 	public String toString() {
