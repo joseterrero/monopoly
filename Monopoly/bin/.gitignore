@@ -1,6 +1,11 @@
+<<<<<<< HEAD
 /crud/
 /datos/
 /lecturaporteclado/
+=======
+>>>>>>> 6b58a9168e3914fcd364803e081a985e37a6d183
 /model/
-/test/
 /vista/
+/datos/
+/test/
+/crud/
