@@ -95,6 +95,10 @@ public class Tablero {
 			"@                  @            @              @                @              @             @                  @" , 
 			"@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@"};
 
+	public Tablero() {
+		
+	}
+	
 	public String[] getTablero() {
 		return tablero;
 	}
@@ -110,6 +114,18 @@ public class Tablero {
 
 	public Tablero(String[] tablero) {
 		this.tablero = tablero;
+	}
+	
+	public void imprimirNombreJuego() {
+		System.out.println("                      ``.-``     `      ``     ``--``     ````        ````      ``                  \r\n" + 
+				"     `h:       .y`  -shhyshdh/` -mo.    /M/  -sdhssydh/`  mmhhho`  .shhhyhhs-  `my    +d/    sy`    \r\n" + 
+				"     -MM+`    /mM- :Ny.    `/Ny -MNmo.  /M/ /Ns`     /Ny  Nh  :Mo /Ns.    .oNo `Ny    `omy-`ym:     \r\n" + 
+				"     oMsmy` `sNhMo hN`   `   yM`-Ms:hms./M/ md        yN``Ndoohd-`mh        hN``Ny      .yNhm:      \r\n" + 
+				"     hM..dd/dm:.Mh +M/      -dd`-Ms  :ymdM/ oN/      .mh `Ny::-`  ym-      .md `Ny       `mm-       \r\n" + 
+				"     mN  `sNs`  mN` /hho//+ydo` -M+    -yN/  /hho//+yho` .Mo      `sds/::/sds. `Nd///// `hm-        \r\n" + 
+				"     //    .    ::`  `./++/-`   `/.      -.   `.:++/.`   `:.        `:+oo+:.    /+++++: -+.         \r\n" + 
+				"                                                                                                    \r\n" + 
+				"");
 	}
 	
 	public void imprimirTablero (String tablero[]) {
