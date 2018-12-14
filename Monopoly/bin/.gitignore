@@ -1,7 +1,5 @@
-/controller/
-/crud/
-/datos/
-/lecturaporteclado/
 /model/
-/test/
 /vista/
+/datos/
+/test/
+/crud/
