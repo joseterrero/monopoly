@@ -5,7 +5,6 @@ public class JugadorDatos {
 	public JugadorDatos() {
 
 	}
-<<<<<<< HEAD
 
 	public String[] arrayCartasBanca() {
 		String[] banca = { "Has donado dinero para la educación de los jóvenes, paga 100 $ al banco.",
@@ -29,9 +28,6 @@ public class JugadorDatos {
 		return sorpresa;
 	}
 
-=======
-	
->>>>>>> 73e26a16b60ca43466eaa31fe01d180a29188827
 	public String[] arrayInstrucciones() {
 		String[] instrucciones = {
 				"  ___                 _                                  _                              \r\n"
@@ -60,8 +56,5 @@ public class JugadorDatos {
 		return instrucciones;
 
 	}
-<<<<<<< HEAD
-=======
 
->>>>>>> 73e26a16b60ca43466eaa31fe01d180a29188827
 }
