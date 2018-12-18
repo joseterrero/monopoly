@@ -9,5 +9,12 @@ Segundo reparto:	13/12
 
 Pablo - Array de instrucciones							Hecho
 Carlos - tablero								Hecho (falta modificacion)
-Jose - Metodos carta banco
-Jesus - Metodos carta suerte
+Jose - Metodos carta banco						Hecho	
+Jesus - Metodos carta suerte					Hecho
+
+tercer reparto:		18/12
+
+Pablo - Clase partida (turnos).
+Carlos - Tablero (arrayo bidimensional).
+Jose - Metodos cartas.
+chus - Modificacion de datos de cartas, creacion array cartas y creacion de clase casillas.
