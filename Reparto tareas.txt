@@ -7,7 +7,7 @@ Chus- clase dado y base de datos.						Hecho
 
 Segundo reparto:	13/12
 
-Pablo - Array de instrucciones
-Carlos - tablero
+Pablo - Array de instrucciones							Hecho
+Carlos - tablero								Hecho (falta modificacion)
 Jose - Metodos carta banco
 Jesus - Metodos carta suerte
