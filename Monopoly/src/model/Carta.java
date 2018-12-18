@@ -2,7 +2,7 @@ package model;
 
 public class Carta {
 	
-	private int clase;
+	private String clase;
 	private String titulo;
 	private double cantidad;
 	private int accion;
@@ -11,7 +11,7 @@ public class Carta {
 		
 	}
 
-	public Carta(int clase, String titulo, double cantidad, int accion) {
+	public Carta(String clase, String titulo, double cantidad, int accion) {
 		super();
 		this.clase = clase;
 		this.titulo = titulo;
@@ -19,11 +19,11 @@ public class Carta {
 		this.accion = accion;
 	}
 
-	public int getClase() {
+	public String getClase() {
 		return clase;
 	}
 
-	public void setClase(int clase) {
+	public void setClase(String clase) {
 		this.clase = clase;
 	}
 
