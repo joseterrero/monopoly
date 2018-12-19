@@ -35,6 +35,22 @@ public class CartasDatos {
 	
 	Carta sorpresa[]= {c11,c12,c13,c14,c15,c16,c17,c18,c19,c20};
 
+	public Carta[] getBanca() {
+		return banca;
+	}
+
+	public void setBanca(Carta[] banca) {
+		this.banca = banca;
+	}
+
+	public Carta[] getSorpresa() {
+		return sorpresa;
+	}
+
+	public void setSorpresa(Carta[] sorpresa) {
+		this.sorpresa = sorpresa;
+	}
+
 	
 
 }
