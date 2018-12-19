@@ -5,18 +5,27 @@ public class Jugador {
 	private String nombre;
 	private double dinero;
 	private int posicion;
-	public String color;
+	public int player;
+	
 
 	public Jugador() {
 
 	}
 
-	public Jugador(String nombre, double dinero, int posicion, String color) {
+	public Jugador(String nombre, double dinero, int posicion, int player) {
 		super();
 		this.nombre = nombre;
 		this.dinero = dinero;
 		this.posicion = posicion;
-		this.color = color;
+		this.player = player;
+	}
+
+	public int getPlayer() {
+		return player;
+	}
+
+	public void setPlayer(int player) {
+		this.player = player;
 	}
 
 	public String getNombre() {
@@ -43,17 +52,10 @@ public class Jugador {
 		this.posicion = posicion;
 	}
 
-	public String getColor() {
-		return color;
-	}
-
-	public void setColor(String color) {
-		this.color = color;
-	}
 
 	@Override
 	public String toString() {
-		return "Nombre: " + nombre + ", Dinero: " + dinero + ", Posicion: " + posicion + ", Color: " + color;
+		return "Nombre: " + nombre + ", Dinero: " + dinero + ", Posicion: " + posicion;
 	}
 
 }
