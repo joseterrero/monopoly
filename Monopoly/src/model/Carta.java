@@ -6,6 +6,8 @@ public class Carta {
 	private String titulo;
 	private double cantidad;
 	private int accion;
+	// Banca es tipo 1 y suerte es tipo 2
+	private int tipo;
 	
 	public Carta() {
 		
@@ -17,6 +19,10 @@ public class Carta {
 		this.titulo = titulo;
 		this.cantidad = cantidad;
 		this.accion = accion;
+	}
+	
+	public Carta(int tipo) {
+		this.tipo = tipo;
 	}
 
 	public String getClase() {
