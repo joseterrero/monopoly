@@ -143,14 +143,14 @@ public class Tablero {
 		//Esto sustituye el hueco en blanco reservado por las siglas del jugador
 		public String avanzarTablero(int posicion,int numJugador) {
 			
-			return posiciones[numJugador-1][posicion-1]= siglas jugador;
+			return posiciones /* setPosicion(int posicion) */[numJugador   /*getPlayer()*/ -1] [posicion /*getPosicion()*/ -1] = siglas jugador /* getNombre() */;
 			
 		}
 		
-		//Esto sustituye las siglas del jugador  de la casilla de la que se va por tres espacios
+		//Esto sustituye las siglas del jugador  de la casilla de la que se va por tres espacios, vamos que lo deja en blanco
 		public String borrarPosicion(int posicionAnterior,int numJugador) {
 			
-			return posiciones[numJugador-1][posicionAnterior-1];
+			return posiciones /*  setPosicion(int posicion)*/  [numJugador /*getPlayer()*/  -1]  [posicionAnterior /*getPosicion()*/  -1] =siglas jugador /* getNombre() */  ;
 			
 		}
 		
