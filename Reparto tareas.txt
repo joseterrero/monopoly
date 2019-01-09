@@ -15,7 +15,7 @@ Jesus - Metodos carta suerte									Hecho
 tercer reparto:		18/12
 
 Pablo - Clase partida (turnos).									Hecho
-Carlos - Tablero (arrayo bidimensional).
+Carlos - Tablero (arrayo bidimensional).							Hecho (falta posicionamiento)
 Jose - Metodos cartas.										Hecho
 chus - Modificacion de datos de cartas, creacion array cartas y creacion de clase casillas.
 
