@@ -9,8 +9,8 @@ public class Ppal {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-		String nombre, rojo = "Rojo", azul = "Azul";
-		int tam = 2, posicion = 1, uno = 1, dos = 2, player;
+		String nombre;
+		int tam = 2, posicion = 1, player=1;
 		double dinero = 10000;
 		Tablero tab = new Tablero();
 
@@ -25,14 +25,7 @@ public class Ppal {
 		for (int i = 0; i < listaJugadores.length; i++) {
 			System.out.println("Introduce el nombre del jugador: ");
 			nombre = Leer.dato();
-
-/*
-			System.out.println(uno + ". " + rojo);
-			System.out.println(dos + ". " + azul);
-			System.out.println("Elige el color: ");
-			color = Leer.dato();
-*/
-
+			
 			listaJugadores[i] = new Jugador(nombre, dinero, posicion, player);
 		}
 
