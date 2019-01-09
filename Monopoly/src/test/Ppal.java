@@ -15,6 +15,7 @@ public class Ppal {
 		double dinero = 10000;
 		// Tablero tab = new Tablero();
 		JugadorDatos jugDat = new JugadorDatos();
+		Tablero t = new Tablero();
 
 		Jugador[] listaJugadores = new Jugador[tam];
 
@@ -31,6 +32,8 @@ public class Ppal {
 			listaJugadores[i] = new Jugador(nombre, dinero, posicion, player);
 			player++;
 		}
+		
+		t.
 
 /*
 		for (int i = 0; i < listaJugadores.length; i++) {

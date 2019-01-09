@@ -1,6 +1,7 @@
 package vista;
 
 import java.util.Arrays;
+import model.Jugador;
 
 public class Tablero {
 	//Hacer con array bidimensional, un índice para cada caracter
@@ -140,19 +141,33 @@ public class Tablero {
 				
 			}
 		
-		//Esto sustituye el hueco en blanco reservado por las siglas del jugador
-		public String avanzarTablero(int posicion,int numJugador) {
+		 // Esto sustituye el hueco en blanco reservado por las siglas del jugador
+	//	public String avanzarTablero(int posicion,int numJugador) {
 			
-			return posiciones /* setPosicion(int posicion) */[numJugador   /*getPlayer()*/ -1] [posicion /*getPosicion()*/ -1] = siglas jugador /* getNombre() */;
+	//		return posiciones /* setPosicion(int posicion) */[numJugador   /*getPlayer()*/ -1] [posicion /*getPosicion()*/ -1] = siglas jugador /* getNombre() */;
 			
-		}
+	//	}
 		
 		//Esto sustituye las siglas del jugador  de la casilla de la que se va por tres espacios, vamos que lo deja en blanco
-		public String borrarPosicion(int posicionAnterior,int numJugador) {
+	//	public String borrarPosicion(int posicionAnterior,int numJugador) {
 			
-			return posiciones /*  setPosicion(int posicion)*/  [numJugador /*getPlayer()*/  -1]  [posicionAnterior /*getPosicion()*/  -1] =siglas jugador /* getNombre() */  ;
+	//		return posiciones /*  setPosicion(int posicion)*/  [numJugador /*getPlayer()*/  -1]  [posicionAnterior /*getPosicion()*/  -1] =siglas jugador /* getNombre() */  ;
 			
-		}
+	//	}
+		
+		
+	//	public void moverFicha(int posicion, int posicionAnterior, int numJugador) {
+	//		
+	//		posiciones /* setPosicion(int posicion) */[getPlayer()-1] [getPosicion() /*getPosicion()*/ -1] = /*siglas jugador*/ getNombre() ;
+	//		
+	//		posiciones /*  setPosicion(int posicion)*/  [/*numJugador*/ getPlayer()  -1]  [/*posicionAnterior*/ getPosicion()  -1] = /*siglas jugador*/ getNombre() ;
+	//	}
+			
+	public void moverFicha(int posicion, int posicionAnterior, int numJugador) {
+			posiciones /* setPosicion(int posicion) */[getPlayer()-1] [getPosicion() /*getPosicion()*/ -1] = /*siglas jugador*/ getNombre() ;
+			
+			posiciones /*  setPosicion(int posicion)*/  [/*numJugador*/ getPlayer()  -1]  [/*posicionAnterior*/ getPosicion()  -1] = /*siglas jugador*/ getNombre() ;
+			}
 		
 		
 	}
