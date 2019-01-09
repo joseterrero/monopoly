@@ -2,17 +2,13 @@ package model;
 
 public class Casilla {
 
-	private Calle calle;
-	private Carcel carcel;
-	private Carta carta;
-	private Estacion estacion;
-	private Ircarcel ircercel;
-	private Parking parking;
-	private Salida salida;
+	private int tipo;
+	private int posicion;
 	
 	
-	public Casilla() {
-		super();
-		
+	public Casilla(int tipo, int posicion) {
+		this.tipo = tipo;
+		this.posicion = posicion;
 	}
+	
 }

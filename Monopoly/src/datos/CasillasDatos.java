@@ -15,6 +15,7 @@ public class CasillasDatos {
 		
 	}
 	
+	
 	Salida casilla1 = new Salida(1000);
 	Calle casilla2 = new Calle("Dresde",600,230);
 	Estacion casilla3 = new Estacion("Centro comercial",1000,500);
@@ -40,11 +41,54 @@ public class CasillasDatos {
 	Calle casilla23 = new Calle("Julio Burel",950,430);
 	Calle casilla24 = new Calle("Pedro Poveda",1200,580);
 	
+	// arrays de las casillas.
 	
-	Casilla casillas[] = {casilla1,casilla2,casilla3.casilla4,casilla5,casilla6,casilla7,
-			casilla8,casilla9,casilla10,casilla11,casilla12,casilla13,casilla14,casilla15,
-			casilla16,casilla17,casilla18,casilla19,casilla20,casilla21,casilla22,casilla23,
-			casilla24};
+	Calle casillasCalle[] = {casilla2,casilla5,casilla6,casilla8,casilla11,casilla12,casilla14,
+			casilla17,casilla18,casilla20,casilla23,casilla24};
 	
+	Carta casillasCarta[] = {casilla4,casilla10,casilla16,casilla22};
+	
+	Estacion casillasEstacion[] = {casilla3,casilla9,casilla15,casilla21};
+	
+	Salida casillasSalida[] = {casilla1};
+	
+	Carcel casillasCarcel[] = {casilla7};
+	
+	Parking casillasParking[] = {casilla13};
+	
+	Ircarcel casillasIrcarcel[] = {casilla19};
+	
+	Casilla c1 = new Casilla(4,1);
+	Casilla c2 = new Casilla(1,1);
+	Casilla c3 = new Casilla(3,1);
+	Casilla c4 = new Casilla(2,1);
+	Casilla c5 = new Casilla(1,2);
+	Casilla c6 = new Casilla(1,3);
+	Casilla c7 = new Casilla(5,1);
+	Casilla c8 = new Casilla(1,4);
+	Casilla c9 = new Casilla(3,2);
+	Casilla c10 = new Casilla(2,2);
+	Casilla c11 = new Casilla(1,5);
+	Casilla c12 = new Casilla(1,6);
+	Casilla c13 = new Casilla(6,1);
+	Casilla c14 = new Casilla(1,7);
+	Casilla c15 = new Casilla(3,3);
+	Casilla c16 = new Casilla(2,3);
+	Casilla c17 = new Casilla(1,8);
+	Casilla c18 = new Casilla(1,9);
+	Casilla c19 = new Casilla(7,1);
+	Casilla c20 = new Casilla(1,10);
+	Casilla c21 = new Casilla(3,4);
+	Casilla c22 = new Casilla(2,4);
+	Casilla c23 = new Casilla(1,11);
+	Casilla c24 = new Casilla(1,12);
+	
+	Casilla casillas[] = {c1,c2,c3,c4,c5,c6,c7,c8,c9,c10,c11,c12,c13,c14,c15,c16,c17,c18,c19,c20,c21,c22,c23,c24};
 
-}
+	
+	public Casilla[] getCasillas() {
+		return casillas;
+	}
+	
+	}
+	
