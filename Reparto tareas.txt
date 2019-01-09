@@ -1,20 +1,27 @@
 Primer reparto:		12/12
 
-Plalo- clase carcel y parking.							Hecho
-Carlos- Tablero, cartas banco y sorpresa (solo escritas sin codigo).		Hecho (falta tablero)
-Jose- Array e introduccion de jugadores.					Hecho
-Chus- clase dado y base de datos.						Hecho
+Plalo- clase carcel y parking.									Hecho
+Carlos- Tablero, cartas banco y sorpresa (solo escritas sin codigo).				Hecho (falta tablero)
+Jose- Array e introduccion de jugadores.							Hecho
+Chus- clase dado y base de datos.								Hecho
 
 Segundo reparto:	13/12
 
-Pablo - Array de instrucciones							Hecho
-Carlos - tablero								Hecho (falta modificacion)
-Jose - Metodos carta banco						Hecho	
-Jesus - Metodos carta suerte					Hecho
+Pablo - Array de instrucciones									Hecho
+Carlos - tablero										Hecho (falta modificacion)
+Jose - Metodos carta banco									Hecho	
+Jesus - Metodos carta suerte									Hecho
 
 tercer reparto:		18/12
 
-Pablo - Clase partida (turnos).
+Pablo - Clase partida (turnos).									Hecho
 Carlos - Tablero (arrayo bidimensional).
-Jose - Metodos cartas.
+Jose - Metodos cartas.										Hecho
 chus - Modificacion de datos de cartas, creacion array cartas y creacion de clase casillas.
+
+cuarto reparto:		9/1
+
+Pablo - Enfermo
+Carlos - Tablero
+Jose - Inicio del main
+Jesus - Array bidimensional de casillas
