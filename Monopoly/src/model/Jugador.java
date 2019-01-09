@@ -6,7 +6,6 @@ public class Jugador {
 	private double dinero;
 	private int posicion;
 	public int player;
-	
 
 	public Jugador() {
 
@@ -52,10 +51,10 @@ public class Jugador {
 		this.posicion = posicion;
 	}
 
-
 	@Override
 	public String toString() {
-		return "Nombre: " + nombre + ", Dinero: " + dinero + ", Posicion: " + posicion;
+		return "Jugador [nombre=" + nombre + ", dinero=" + dinero + ", posicion=" + posicion + ", player=" + player
+				+ "]";
 	}
 
 }
