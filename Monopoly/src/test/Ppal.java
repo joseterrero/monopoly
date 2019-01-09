@@ -29,7 +29,7 @@ public class Ppal {
 			System.out.println("Introduce el nombre del jugador: ");
 			nombre = Leer.dato();
 
-			listaJugadores[i] = new Jugador(nombre, dinero, posicion, player);
+			listaJugadores[i] = new Jugador(nombre, dinero, posicion, player); //Creo que si los datos se los vamos a pasar luego de çbemos crear los jugadores vacios y luego se rellenan
 			player++;
 		}
 		
