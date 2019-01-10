@@ -12,16 +12,20 @@ public class Ppal {
 		// TODO Auto-generated method stub
 
 		String nombre;
+<<<<<<< HEAD
 		int tam = 2, posicion = 1, player = 1, posAnterior = 0,carcel=0;
+=======
+		int tam = 2, posicion = 1, player = 1;
+>>>>>>> d2eb91dc0a37231aca54642fe7ad3ba50080475b
 		double dinero = 10000;
-		// Tablero tab = new Tablero();
+		Tablero tab = new Tablero();
 		JugadorDatos jugDat = new JugadorDatos();
 		Tablero t = new Tablero();
 		DadoController dadoCont = new DadoController();
 
 		Jugador[] listaJugadores = new Jugador[tam];
 
-		// tab.imprimirNombreJuego();
+		tab.imprimirNombreJuego();
 
 		System.out.println("Bienvenidos al Monopoly.");
 
@@ -33,7 +37,11 @@ public class Ppal {
 			System.out.println("Introduce el nombre del jugador " + (i + 1) + ": ");
 			nombre = Leer.dato();
 
+<<<<<<< HEAD
 			listaJugadores[i] = new Jugador(nombre, dinero, posicion, player, posAnterior,carcel); // Creo que si los datos se
+=======
+			listaJugadores[i] = new Jugador(nombre, dinero, posicion, player); // Creo que si los datos se
+>>>>>>> d2eb91dc0a37231aca54642fe7ad3ba50080475b
 																							// los vamos a pasar luego
 																							// de çbemos crear los
 																							// jugadores vacios y luego
