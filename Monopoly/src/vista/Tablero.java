@@ -91,13 +91,15 @@ public class Tablero {
 			{"@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@"} };
 	
 	
-		private String[][] posiciones= {{tablero[82][3],tablero[71][3],tablero[59][3],tablero[47][3],tablero[35][3],tablero[23][3],tablero[10][3],tablero[10][18],tablero[10][33],tablero[10][48],tablero[10][62],tablero[10][77],tablero[10][92],tablero[23][112],tablero[23][112],tablero[35][112],tablero[47][112],tablero[59][112],tablero[71][112],tablero[82][92],tablero[82][77],tablero[82][62],tablero[82][48],tablero[82][33],tablero[82][18]},
-			
-			
-			{tablero[82][14],tablero[71][14],tablero[59][14],tablero[47][14],tablero[35][14],tablero[23][14],tablero[10][14],tablero[10][29],tablero[10][44],tablero[10][58],tablero[10][73],tablero[10][88],tablero[10][102],tablero[23][122],tablero[35][122],tablero[47][122],tablero[59][122],tablero[71][122],tablero[82][102]}
-			};	
-	
-	
+		//private String[][] posiciones= {{tablero[82][3],tablero[71][3],tablero[59][3],tablero[47][3],tablero[35][3],tablero[23][3],tablero[10][3],tablero[10][18],tablero[10][33],tablero[10][48],tablero[10][62],tablero[10][77],tablero[10][92],tablero[23][112],tablero[23][112],tablero[35][112],tablero[47][112],tablero[59][112],tablero[71][112],tablero[82][92],tablero[82][77],tablero[82][62],tablero[82][48],tablero[82][33],tablero[82][18]},
+		//	
+		//	
+		//	{tablero[82][14],tablero[71][14],tablero[59][14],tablero[47][14],tablero[35][14],tablero[23][14],tablero[10][14],tablero[10][29],tablero[10][44],tablero[10][58],tablero[10][73],tablero[10][88],tablero[10][102],tablero[23][122],tablero[35][122],tablero[47][122],tablero[59][122],tablero[71][122],tablero[82][102]}
+		//	};	
+		int []filasJ1= {82,71,59,47,35,23,10,10,10,10,10,10,10,23,35,47,59,71,82,82,82,82,82,82};
+		int []columnasJ1={3,3,3,3,3,3,3,18,33,48,62,77,92,112,112,112,112,112,92,77,62,48,33,18};
+		int []filasJ2= {2,71,59,47,35,23,10,10,10,10,10,10,10,23,35,47,59,71,82,82,82,82,82,82};
+		int []columnasJ2= {14,14,14,14,14,14,14,29,44,58,73,88,102,122,122,12,122,122,102,88,73,58,44,29,};
 
 		public Tablero() {
 			
@@ -163,11 +165,11 @@ public class Tablero {
 	//		posiciones /*  setPosicion(int posicion)*/  [/*numJugador*/ getPlayer()  -1]  [/*posicionAnterior*/ getPosicion()  -1] = /*siglas jugador*/ getNombre() ;
 	//	}
 			
-	public void moverFicha(int posicion, int posicionAnterior, int numJugador) {
-			posiciones /* setPosicion(int posicion) */[getPlayer()-1] [getPosicion() /*getPosicion()*/ -1] = /*siglas jugador*/ getNombre() ;
-			
-			posiciones /*  setPosicion(int posicion)*/  [/*numJugador*/ getPlayer()  -1]  [/*posicionAnterior*/ getPosicionAnterior()  -1] = /*siglas jugador*/ getNombre() ;
-			}
+	//public void moverFicha(int posicion, int posicionAnterior, int numJugador) {
+	//		posiciones /* setPosicion(int posicion) */[getPlayer()-1] [getPosicion() /*getPosicion()*/ -1] = /*siglas jugador*/ getNombre() ;
+	//		
+	//		posiciones /*  setPosicion(int posicion)*/  [/*numJugador*/ getPlayer()  -1]  [/*posicionAnterior*/ getPosicionAnterior()  -1] = /*siglas jugador*/ getNombre() ;
+	//		}
 		
 		
 	}
