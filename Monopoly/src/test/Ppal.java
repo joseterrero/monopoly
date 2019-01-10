@@ -12,11 +12,7 @@ public class Ppal {
 		// TODO Auto-generated method stub
 
 		String nombre;
-<<<<<<< HEAD
-		int tam = 2, posicion = 1, player = 1, posAnterior = 0,carcel=0;
-=======
-		int tam = 2, posicion = 1, player = 1;
->>>>>>> d2eb91dc0a37231aca54642fe7ad3ba50080475b
+		int tam = 2, posicion = 1, player = 1, carcel = 0;
 		double dinero = 10000;
 		Tablero tab = new Tablero();
 		JugadorDatos jugDat = new JugadorDatos();
@@ -37,15 +33,11 @@ public class Ppal {
 			System.out.println("Introduce el nombre del jugador " + (i + 1) + ": ");
 			nombre = Leer.dato();
 
-<<<<<<< HEAD
-			listaJugadores[i] = new Jugador(nombre, dinero, posicion, player, posAnterior,carcel); // Creo que si los datos se
-=======
-			listaJugadores[i] = new Jugador(nombre, dinero, posicion, player); // Creo que si los datos se
->>>>>>> d2eb91dc0a37231aca54642fe7ad3ba50080475b
-																							// los vamos a pasar luego
-																							// de çbemos crear los
-																							// jugadores vacios y luego
-																							// se rellenan
+			listaJugadores[i] = new Jugador(nombre, dinero, posicion, player, carcel); // Creo que si los datos se
+																						// los vamos a pasar luego
+																						// de çbemos crear los
+																						// jugadores vacios y luego
+																						// se rellenan
 			player++;
 		}
 
@@ -53,7 +45,7 @@ public class Ppal {
 		 * for (int i = 0; i < listaJugadores.length; i++) {
 		 * System.out.println("Jugador " + (i + 1) + " - " + listaJugadores[i]); }
 		 */
-		
+
 		// t.imprimirTablero(tablero);
 
 		t.getTablero();

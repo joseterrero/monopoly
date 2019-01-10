@@ -5,33 +5,21 @@ public class Jugador {
 	private String nombre;
 	private double dinero;
 	private int posicion;
-<<<<<<< HEAD
-	private int posicionAnterior;
 	private int player;
 	private int carcel;
-=======
-	public int player;
->>>>>>> d2eb91dc0a37231aca54642fe7ad3ba50080475b
+
 
 	public Jugador() {
 
 	}
 
-<<<<<<< HEAD
-	public Jugador(String nombre, double dinero, int posicion, int player,int posicionAnterior,int carcel) {
-		super();
-=======
-	public Jugador(String nombre, double dinero, int posicion, int player) {
->>>>>>> d2eb91dc0a37231aca54642fe7ad3ba50080475b
+	public Jugador(String nombre, double dinero, int posicion, int player, int carcel) {
 		this.nombre = nombre;
 		this.dinero = dinero;
 		this.posicion = posicion;
 		this.player = player;
-<<<<<<< HEAD
-		this.posicionAnterior = posicionAnterior;
 		this.carcel = carcel;
-=======
->>>>>>> d2eb91dc0a37231aca54642fe7ad3ba50080475b
+
 	}
 
 	public int getPlayer() {
@@ -64,6 +52,14 @@ public class Jugador {
 
 	public void setPosicion(int posicion) {
 		this.posicion = posicion;
+	}
+
+	public int getCarcel() {
+		return carcel;
+	}
+
+	public void setCarcel(int carcel) {
+		this.carcel = carcel;
 	}
 
 	@Override
