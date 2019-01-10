@@ -22,6 +22,13 @@ chus - Modificacion de datos de cartas, creacion array cartas y creacion de clas
 cuarto reparto:		9/1
 
 Pablo - Enfermo
-Carlos - Tablero
-Jose - Inicio del main
-Jesus - Array bidimensional de casillas
+Carlos - Tablero										Hecho
+Jose - Inicio del main										Hecho
+Jesus - Array bidimensional de casillas								Hecho
+
+quinto reparto:		10/1
+
+Pablo - Enfermo
+Carlos - Modificacion Array posiciones
+Jose - Seguir main
+Jesus - Controller vistas
