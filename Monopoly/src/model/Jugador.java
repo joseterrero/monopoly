@@ -12,7 +12,7 @@ public class Jugador {
 
 	}
 
-	public Jugador(String nombre, double dinero, int posicion, int posicionAnterior, int player) {
+	public Jugador(String nombre, double dinero, int posicion, int player,int posicionAnterior) {
 		super();
 		this.nombre = nombre;
 		this.dinero = dinero;
@@ -64,8 +64,7 @@ public class Jugador {
 
 	@Override
 	public String toString() {
-		return "Jugador [nombre=" + nombre + ", dinero=" + dinero + ", posicion=" + posicion + ", player=" + player
-				+ "]";
+		return "nombre: " + nombre + ", dinero: " + dinero + ", posicion: " + posicion + ", player: " + player;
 	}
 
 }
