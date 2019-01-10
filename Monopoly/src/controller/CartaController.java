@@ -17,28 +17,28 @@ public class CartaController {
 		return jug.getDinero()-carta.getCantidad();
 	}
 
-	public void sacarCartaBanca(CartaCrud carCrud, CartasDatos carDat) {
+	public void sacarCartaBanca(CartaCrud carCrud, CartasDatos carDat,Jugador jug) {
 		int num;
 
 		num = carCrud.sacarCartaSorpresa();
 
 		if (carDat.getBanca()[num].getAccion() == 1) {
-			perderDinero(carDat.getBanca()[num], Jugador jug);
+			perderDinero(carDat.getBanca()[num], jug);
 		} else {
-			ganarDinero(carDat.getBanca()[num], Jugador jug);
+			ganarDinero(carDat.getBanca()[num], jug);
 		}
 
 	}
 
-	public void sacarCartaSorpresa(CartaCrud carCrud, CartasDatos carDat) {
+	public void sacarCartaSorpresa(CartaCrud carCrud, CartasDatos carDat,Jugador jug) {
 		int num;
 
 		num = carCrud.sacarCartaSorpresa();
 
 		if (carDat.getSorpresa()[num].getAccion() == 1) {
-			perderDinero(carDat.getBanca()[num], Jugador jug);
+			perderDinero(carDat.getBanca()[num], jug);
 		} else {
-			ganarDinero(carDat.getBanca()[num], Jugador jug);
+			ganarDinero(carDat.getBanca()[num], jug);
 		}
 
 	}

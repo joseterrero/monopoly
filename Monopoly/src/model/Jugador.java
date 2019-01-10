@@ -6,19 +6,21 @@ public class Jugador {
 	private double dinero;
 	private int posicion;
 	private int posicionAnterior;
-	public int player;
+	private int player;
+	private int carcel;
 
 	public Jugador() {
 
 	}
 
-	public Jugador(String nombre, double dinero, int posicion, int player,int posicionAnterior) {
+	public Jugador(String nombre, double dinero, int posicion, int player,int posicionAnterior,int carcel) {
 		super();
 		this.nombre = nombre;
 		this.dinero = dinero;
 		this.posicion = posicion;
 		this.player = player;
 		this.posicionAnterior = posicionAnterior;
+		this.carcel = carcel;
 	}
 
 	public int getPlayer() {

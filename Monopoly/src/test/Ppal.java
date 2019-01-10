@@ -12,7 +12,7 @@ public class Ppal {
 		// TODO Auto-generated method stub
 
 		String nombre;
-		int tam = 2, posicion = 1, player = 1, posAnterior = 0;
+		int tam = 2, posicion = 1, player = 1, posAnterior = 0,carcel=0;
 		double dinero = 10000;
 		// Tablero tab = new Tablero();
 		JugadorDatos jugDat = new JugadorDatos();
@@ -33,7 +33,7 @@ public class Ppal {
 			System.out.println("Introduce el nombre del jugador " + (i + 1) + ": ");
 			nombre = Leer.dato();
 
-			listaJugadores[i] = new Jugador(nombre, dinero, posicion, player, posAnterior); // Creo que si los datos se
+			listaJugadores[i] = new Jugador(nombre, dinero, posicion, player, posAnterior,carcel); // Creo que si los datos se
 																							// los vamos a pasar luego
 																							// de çbemos crear los
 																							// jugadores vacios y luego
