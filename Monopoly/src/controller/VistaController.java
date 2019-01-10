@@ -2,6 +2,10 @@ package controller;
 
 public class VistaController {
 
+	public VistaController() {
+		
+	}
+
 	public int mirarPocip1i(int posicionp1i[], int posicion) {
 		int num = posicion - 1;
 		

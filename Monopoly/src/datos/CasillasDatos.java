@@ -43,20 +43,20 @@ public class CasillasDatos {
 	
 	// arrays de las casillas.
 	
-	Calle casillasCalle[] = {casilla2,casilla5,casilla6,casilla8,casilla11,casilla12,casilla14,
+	private Calle casillasCalle[] = {casilla2,casilla5,casilla6,casilla8,casilla11,casilla12,casilla14,
 			casilla17,casilla18,casilla20,casilla23,casilla24};
 	
-	Carta casillasCarta[] = {casilla4,casilla10,casilla16,casilla22};
+	private Carta casillasCarta[] = {casilla4,casilla10,casilla16,casilla22};
 	
-	Estacion casillasEstacion[] = {casilla3,casilla9,casilla15,casilla21};
+	private Estacion casillasEstacion[] = {casilla3,casilla9,casilla15,casilla21};
 	
-	Salida casillasSalida[] = {casilla1};
+	private Salida casillasSalida[] = {casilla1};
 	
-	Carcel casillasCarcel[] = {casilla7};
+	private Carcel casillasCarcel[] = {casilla7};
 	
-	Parking casillasParking[] = {casilla13};
+	private Parking casillasParking[] = {casilla13};
 	
-	Ircarcel casillasIrcarcel[] = {casilla19};
+	private Ircarcel casillasIrcarcel[] = {casilla19};
 	
 	//tipos; 1 = Calles, 2 = Cartas, 3 = Estacion, 4 = Salida, 5 =  Carcel, 6 = Parking, 7 = Ircarcel.
 	
@@ -85,9 +85,44 @@ public class CasillasDatos {
 	Casilla c23 = new Casilla(1,10);
 	Casilla c24 = new Casilla(1,11);
 	
-	Casilla casillas[] = {c1,c2,c3,c4,c5,c6,c7,c8,c9,c10,c11,c12,c13,c14,c15,c16,c17,c18,c19,c20,c21,c22,c23,c24};
+	private Casilla casillas[] = {c1,c2,c3,c4,c5,c6,c7,c8,c9,c10,c11,c12,c13,c14,c15,c16,c17,c18,c19,c20,c21,c22,c23,c24};
 
 	
+	public Calle[] getCasillasCalle() {
+		return casillasCalle;
+	}
+
+
+	public Carta[] getCasillasCarta() {
+		return casillasCarta;
+	}
+
+
+	public Estacion[] getCasillasEstacion() {
+		return casillasEstacion;
+	}
+
+
+	public Salida[] getCasillasSalida() {
+		return casillasSalida;
+	}
+
+
+	public Carcel[] getCasillasCarcel() {
+		return casillasCarcel;
+	}
+
+
+	public Parking[] getCasillasParking() {
+		return casillasParking;
+	}
+
+
+	public Ircarcel[] getCasillasIrcarcel() {
+		return casillasIrcarcel;
+	}
+
+
 	public Casilla[] getCasillas() {
 		return casillas;
 	}

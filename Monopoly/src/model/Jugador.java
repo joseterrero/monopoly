@@ -6,19 +6,20 @@ public class Jugador {
 	private double dinero;
 	private int posicion;
 	private int player;
-	private int carcel;
-
+	private int turno;
+	private boolean cambio;
 
 	public Jugador() {
 
 	}
 
-	public Jugador(String nombre, double dinero, int posicion, int player, int carcel) {
+	public Jugador(String nombre, double dinero, int posicion, int player, int turno, boolean cambio) {
 		this.nombre = nombre;
 		this.dinero = dinero;
 		this.posicion = posicion;
 		this.player = player;
-		this.carcel = carcel;
+		this.turno = turno;
+		this.cambio = cambio;
 
 	}
 
@@ -50,21 +51,24 @@ public class Jugador {
 		return posicion;
 	}
 
+	public int getTurno() {
+		return turno;
+	}
+
+	public void setTurno(int turno) {
+		this.turno = turno;
+	}
+
+	public boolean getCambio() {
+		return cambio;
+	}
+
+	public void setCambio(boolean cambio) {
+		this.cambio = cambio;
+	}
+
 	public void setPosicion(int posicion) {
 		this.posicion = posicion;
-	}
-
-	public int getCarcel() {
-		return carcel;
-	}
-
-	public void setCarcel(int carcel) {
-		this.carcel = carcel;
-	}
-
-	@Override
-	public String toString() {
-		return "nombre: " + nombre + ", dinero: " + dinero + ", posicion: " + posicion + ", player: " + player;
 	}
 
 }

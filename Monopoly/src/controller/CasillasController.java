@@ -10,6 +10,10 @@ import model.Parking;
 
 public class CasillasController {
 	
+	public CasillasController() {
+	}
+
+
 	public Casilla mirarCasilla (Casilla casillas[],int numCasilla) {
 		int num= numCasilla-1;
 		

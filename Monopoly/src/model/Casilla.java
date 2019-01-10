@@ -10,5 +10,15 @@ public class Casilla {
 		this.tipo = tipo;
 		this.posicion = posicion;
 	}
+
+
+	public int getTipo() {
+		return tipo;
+	}
+
+
+	public int getPosicion() {
+		return posicion;
+	}
 	
 }
