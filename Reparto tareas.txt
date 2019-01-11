@@ -32,3 +32,10 @@ Pablo - Enfermo
 Carlos - Modificacion Array posiciones								Hecho
 Jose - Seguir main										Hecho
 Jesus - Controller vistas									Hecho
+
+sexto reparto:		11/1
+
+Pablo - Main
+Carlos - Modificacion metodos
+Jose - Modificacion metodos
+Jesus - Main
