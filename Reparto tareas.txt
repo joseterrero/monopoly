@@ -29,6 +29,6 @@ Jesus - Array bidimensional de casillas								Hecho
 quinto reparto:		10/1
 
 Pablo - Enfermo
-Carlos - Modificacion Array posiciones
-Jose - Seguir main
-Jesus - Controller vistas
+Carlos - Modificacion Array posiciones								Hecho
+Jose - Seguir main										Hecho
+Jesus - Controller vistas									Hecho
