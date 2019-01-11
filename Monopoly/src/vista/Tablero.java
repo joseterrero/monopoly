@@ -5,6 +5,12 @@ import model.Jugador;
 
 public class Tablero {
 	//Preguntar a Ángel si simplifico tambien las filas donde van las siglas de los jugadores, habría que cambiar los indices de posiciones[][]
+	
+	
+	Jugador j1=new Jugador();
+	Jugador j2=new Jugador();
+	
+	
 	private String[][] tablero= {{"@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@"} , 
 			{"@                  @                  @                  @                 @                  @                  @                 @"} , 
 			{"@                  @                  @                  @                 @                  @                  @                 @"} , 
@@ -178,6 +184,33 @@ public class Tablero {
 				}
 				System.out.println();
 			}
+			
+			
+		//public String moverJ1 (int []posiciop1i, int []posiciop1j , String [][]tablero) {
+			
+		//	return tablero [posiciop1i [posicion]] [posiciop1j [posicion]] = j1.getNombre();
+			
+		//}
+		
+		//public void borrarJ1 (int []posiciop1i,int []posiciop1j,String [][]tablero) {
+			
+		//	tablero [posiciop1i [posicion]] [posiciop1j [posicion] ] = "   " ;
+			
+		//}
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
 		
 		 // Esto sustituye el hueco en blanco reservado por las siglas del jugador
 	//	public String avanzarTablero(int posicion,int numJugador) {

@@ -53,11 +53,11 @@ public class Ppal {
 
 			nombre = j1.getNombre();
 
-			tablero[20][3] = nombre;
+			tablero[10][3] = nombre;
 
 			nombre = j2.getNombre();
 
-			tablero[20][14] = nombre;
+			//tablero[20][14] = nombre;
 
 			for (int i = 0; i < tablero.length; i++) {
 

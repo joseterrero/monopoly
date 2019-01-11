@@ -1,6 +1,13 @@
 package controller;
 
+import model.Jugador;
+import vista.Tablero;
+
 public class VistaController {
+	
+	Tablero t1= new Tablero ();
+	Jugador j1=new Jugador();
+	Jugador j2=new Jugador ();
 
 	public VistaController() {
 		
@@ -17,6 +24,22 @@ public class VistaController {
 		
 		return posicionp1j[num];
 	}
+	
+//	public void moverJ1(int posicion) {
+		
+//		mirarPocip1i(t1.getPosiciop1i(), posicion);
+//		mirarPocip1j(t1.getPosiciop1j(), posicion);
+//		t1.getTablero()[t1.getPosiciop1j()[posicion]] [t1.getPosiciop1j()[posicion]] = j1.getNombre();
+	//	t1.getTablero()[] []
+		
+//		return tablero [posiciop1i [posicion]] [posiciop1j [posicion]] = j1.getNombre();
+		
+		
+		
+		
+		
+//	}
+	
 	
 	public int mirarPocip2i(int posicionp2i[], int posicion) {
 		int num = posicion - 1;
